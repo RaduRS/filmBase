@@ -1,0 +1,68 @@
+.bigBody {
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8e9eab), to(#eef2f3));
+  background-image: linear-gradient(#8e9eab, #eef2f3);
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: SourceSansPro;
+}
+
+body h1 {
+  font-size: 2em;
+  font-family: orangeJuice;
+  color: #EAECEE;
+  letter-spacing: -3px;
+  text-align: left;
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+body .sear {
+  margin: 20px 10px 20px auto;
+}
+
+body .onLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #657a8b;
+  height: 5em;
+}
+
+body h2 {
+  font-family: SourceSansPro;
+}
+
+body hr {
+  margin: 0px;
+  border: .3px solid #EAECEE;
+}
+
+body .title {
+  padding: 20px;
+  font-size: 2.5em;
+  color: #EAECEE;
+  font-family: Dosis;
+}
+
+@font-face {
+  font-family: orangeJuice;
+  src: url(Poland.otf);
+}
+
+@font-face {
+  font-family: Dosis;
+  src: url(mexcellentrg.ttf);
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url(SourceSansPro.ttf);
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    height: 300px;
+    border-radius: 3px;
+}
+
+.amazing{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #eef2f3;
+}
+
+.amazing1{
+    width: 15em;
+}
+
+#root{
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+}
+
+.button{
+    padding: 3px 6px;
+    background-color: #f5c518;
+    border-radius: 4px;
+    font-size: 1em;
+    box-shadow:1px 1px 2px 0px rgba( 0, 0, 0, 0.2 );
+    border: 0.3px solid black;
+    color: black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    transform: scale(1, 1.1);
+}
+
+.button:hover{
+    /* box-shadow:2px 4px 5px 0px rgba( 0, 0, 0, 0.2 ); */
+    cursor: pointer;
+    background-color: #eebf17;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 0.3s ease-in-out;
+}

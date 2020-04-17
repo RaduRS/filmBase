@@ -1,0 +1,73 @@
+
+$color: (
+    primary: #8e9eab,
+    secondary: #eef2f3,
+);
+
+.bigBody{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(map-get($color, primary), map-get($color, secondary));
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: SourceSansPro;
+
+    h1{
+        font-size: 2em;
+        font-family: orangeJuice;
+        color: #EAECEE;
+        letter-spacing: -3px;
+        text-align: left;
+        font-weight: 100;
+        margin-left: 10px;
+    }
+
+    .sear{
+        margin: 20px 10px 20px auto;
+
+    }
+
+    .onLine{
+        display: flex;
+        background-color: #657a8b;
+        height: 5em;
+    }
+
+    
+
+    h2{
+        font-family: SourceSansPro;
+    }
+
+    hr{
+        margin: 0px;
+        border: .3px solid #EAECEE;
+    }
+
+    .title{
+        padding: 20px;
+        font-size: 2.5em;
+        color: #EAECEE;
+        font-family: Dosis;
+    }
+}
+
+@font-face {
+    font-family: orangeJuice;
+    src: url(Poland.otf);
+  }
+
+@font-face {
+    font-family: Dosis;
+    src: url(mexcellentrg.ttf);
+  }
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url(SourceSansPro.ttf);
+  }
